@@ -6,7 +6,7 @@ pipeline {
             parallel {
                 stage('dev'){
                     steps{
-                        echo 'this is working'
+                        echo 'Working'
                     }
                 }
                 stage('QA'){
